@@ -30,6 +30,12 @@ seaborn
 
 
 git clone
+
+# You can also use `py -3 -m venv .venv`
+python -m venv .venv
 pip install -r requirements.txt
-python <path to script>
+
+
+python main.py runserver
+
 
